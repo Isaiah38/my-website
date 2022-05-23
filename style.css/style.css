@@ -28,6 +28,10 @@ button{
 }
 a{
     text-decoration: none;
+    font-family: var(--font);
+}
+p{
+    font-family: var(--font);
 }
 
 /*-----------x--------Global-------------x---------------------*/
@@ -51,7 +55,6 @@ nav{
 #nav-right-wrapper li a{
     color: white;
     font-size: 16px;
-    font-family: var(--font);
     margin-right: 30px;
     border-bottom: 2px solid transparent;
     transition: color 0.5s, border-bottom 0.5s;
@@ -92,7 +95,6 @@ section{
 #abt-content{
     max-width: 770px;
     min-width: 300px;
-    font-family: var(--font);
 }
 #about-me div p{
     font-size: 17px;
@@ -114,7 +116,6 @@ section{
 }
 #more-info div{
     width: 340px;
-    font-family: var(--font);
     font-size: 17px;
     line-height: 1.2;
 }
